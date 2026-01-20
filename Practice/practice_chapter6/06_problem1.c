@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(){
+    int i = 56;
+    int* ptr = &i;
+    printf("The adress of this number is %u\n", &i);
+    printf("The value of i is %d\n", *ptr);
+    return 0;
+}
